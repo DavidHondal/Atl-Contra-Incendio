@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="js/popper.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+</head>
+
+<body>
+
+  
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+        <a href="#">Mi Cuenta</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Acreditaciones Oficiales</a>
+      
+        <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-black w3-left-align" >
+          <div class="a"> Extintores 
+           </div>
+          </button>
+          <div id="Demo1" class="w3-hide">
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-exti">Agentes Secos</div><div class="opciones-images"> <img src="imagenes/venta-extintores/agente-secos.png" width="50" height="50" ></div></a> 
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-exti">Agentes Limpios C02</div><div class="opciones-images"> <img src="imagenes/venta-extintores/agentes-co2.png" width="50" height="50" ></div></a>
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-exti">Agentes Limpios HFC</div><div class="opciones-images"> <img src="imagenes/venta-extintores/agentes-hfc.png" width="50" height="50" ></div></a>
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-exti">Agentes Humedos</div><div class="opciones-images"> <img src="imagenes/venta-extintores/agentes-humedos.png" width="50" height="50" ></div></a>
+            </div>
+         
+        
+            <button onclick="myFunction3('Demo3')" class="w3-button w3-block w3-black w3-left-align" >
+              <div class="a"> Recarga Y Mantenimiento
+               </div>
+              </button>
+              <div id="Demo3" class="w3-hide">
+                  <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-exti">Agentes Secos</div><div class="opciones-images"> <img src="imagenes/venta-extintores/agente-secos.png" width="50" height="50" ></div></a> 
+                  <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-exti">Agentes Limpios C02</div><div class="opciones-images"> <img src="imagenes/venta-extintores/agentes-co2.png" width="50" height="50" ></div></a>
+                  <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-exti">Agentes Limpios HFC</div><div class="opciones-images"> <img src="imagenes/venta-extintores/agentes-hfc.png" width="50" height="50" ></div></a>
+                  <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-exti">Agentes Humedos</div><div class="opciones-images"> <img src="imagenes/venta-extintores/agentes-humedos.png" width="50" height="50" ></div></a>
+                </div>
+      
+        <a href="#">Refacciones</a>
+      
+        <button onclick="myFunction2('Demo2')" class="w3-button w3-block w3-black w3-left-align" >
+          <div class="a">Señalamientos Oficiales
+          </div>
+          </button>
+          <div id="Demo2" class="w3-hide">
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-sena"> <img src="imagenes/tipos-senalamientos/proteccion_civil.png" width="285" height="50" ></div></a> 
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-sena"> <img src="imagenes/tipos-senalamientos/contraincendio.png" width="285" height="50" ></div></a>
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-sena"> <img src="imagenes/tipos-senalamientos/restrictivas.png" width="285" height="50" ></div></a>
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-sena"> <img src="imagenes/tipos-senalamientos/obligatorias.png" width="285" height="50" ></div></a>
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-sena"> <img src="imagenes/tipos-senalamientos/informativas.png" width="285" height="50" ></div></a>
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-sena"> <img src="imagenes/tipos-senalamientos/precautorias.png" width="285" height="50" ></div></a>
+            </div>
+        
+        <a href="#">Gabintes Industriales</a>
+        <a href="#">Detectores de Humo</a>
+        <a href="#">Contacto</a>
+      </div>
+      
+      <div id="main">
+        
+        
+          <div class="header">
+
+            <div class="boton">
+              <button class="openbtn" onclick="openNav()">☰</button>
+             </div>
+
+              
+              <div class="logo-header">
+                <a href="index.html">
+                <img src="imagenes/logo-atl/fondo.png" width="116" height="55" >
+              </a>
+                </div>
+            
+
+
+
+                  </div>
+            
+           
+           
+      
+      
+            <script>
+              function openNav() {
+                document.getElementById("mySidebar").style.width = "350px";
+                document.getElementById("main").style.marginLeft = "250px";
+              }
+              
+              function closeNav() {
+                document.getElementById("mySidebar").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+              }
+              </script>
+              
+              
+              <script>
+                function myFunction(id) {
+                  var x = document.getElementById(id);
+                  if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                  } else { 
+                    x.className = x.className.replace(" w3-show", "");
+                  }
+                }
+                </script>
+              
+              <script>
+                function myFunction2(id) {
+                  var x = document.getElementById(id);
+                  if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                  } else { 
+                    x.className = x.className.replace(" w3-show", "");
+                  }
+                }
+                </script>
+              
+              
+              <script>
+                function myFunction3(id) {
+                  var x = document.getElementById(id);
+                  if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                  } else { 
+                    x.className = x.className.replace(" w3-show", "");
+                  }
+                }
+                </script>
+      
+     
+
+     
+
+<!-- ///////////////////////////////////////////////INICIO-VENTA-SEÑALAMIENTOS/////////////////////////////////////////////////////////////////////////////////-->
+
+ 
+<div id="mySidenav" class="sidenav">
+    <a href="venta-senalamientos.html" id="pro-civil">Proteccion Civil</a>
+    <a href="venta-senalamientos.html" id="contra-inc">Contra Incendio</a>
+    <a href="venta-senalamientos.html" id="restric">Restrictivas</a>
+    <a href="venta-senalamientos.html" id="obligatorias">Obligatorias</a>
+    <a href="venta-senalamientos.html" id="infor">Informativas</a>
+    <a href="venta-senalamientos.html" id="precau">Precautorias</a>
+  </div>
+
+  
+  
+</body>
+</html> 

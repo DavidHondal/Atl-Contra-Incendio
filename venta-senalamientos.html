@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="js/popper.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+</head>
+
+<body>
+
+  
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+        <a href="#">Mi Cuenta</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Acreditaciones Oficiales</a>
+      
+        <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-black w3-left-align" >
+          <div class="a"> Extintores 
+           </div>
+          </button>
+          <div id="Demo1" class="w3-hide">
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-exti">Agentes Secos</div><div class="opciones-images"> <img src="imagenes/venta-extintores/agente-secos.png" width="50" height="50" ></div></a> 
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-exti">Agentes Limpios C02</div><div class="opciones-images"> <img src="imagenes/venta-extintores/agentes-co2.png" width="50" height="50" ></div></a>
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-exti">Agentes Limpios HFC</div><div class="opciones-images"> <img src="imagenes/venta-extintores/agentes-hfc.png" width="50" height="50" ></div></a>
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-exti">Agentes Humedos</div><div class="opciones-images"> <img src="imagenes/venta-extintores/agentes-humedos.png" width="50" height="50" ></div></a>
+            </div>
+         
+        
+            <button onclick="myFunction3('Demo3')" class="w3-button w3-block w3-black w3-left-align" >
+              <div class="a"> Recarga Y Mantenimiento
+               </div>
+              </button>
+              <div id="Demo3" class="w3-hide">
+                  <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-exti">Agentes Secos</div><div class="opciones-images"> <img src="imagenes/venta-extintores/agente-secos.png" width="50" height="50" ></div></a> 
+                  <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-exti">Agentes Limpios C02</div><div class="opciones-images"> <img src="imagenes/venta-extintores/agentes-co2.png" width="50" height="50" ></div></a>
+                  <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-exti">Agentes Limpios HFC</div><div class="opciones-images"> <img src="imagenes/venta-extintores/agentes-hfc.png" width="50" height="50" ></div></a>
+                  <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-exti">Agentes Humedos</div><div class="opciones-images"> <img src="imagenes/venta-extintores/agentes-humedos.png" width="50" height="50" ></div></a>
+                </div>
+      
+        <a href="#">Refacciones</a>
+      
+        <button onclick="myFunction2('Demo2')" class="w3-button w3-block w3-black w3-left-align" >
+          <div class="a">Señalamientos Oficiales
+          </div>
+          </button>
+          <div id="Demo2" class="w3-hide">
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-sena"> <img src="imagenes/tipos-senalamientos/proteccion_civil.png" width="285" height="50" ></div></a> 
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-sena"> <img src="imagenes/tipos-senalamientos/contraincendio.png" width="285" height="50" ></div></a>
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-sena"> <img src="imagenes/tipos-senalamientos/restrictivas.png" width="285" height="50" ></div></a>
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-sena"> <img src="imagenes/tipos-senalamientos/obligatorias.png" width="285" height="50" ></div></a>
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-sena"> <img src="imagenes/tipos-senalamientos/informativas.png" width="285" height="50" ></div></a>
+              <a class="w3-button w3-block w3-left-align" href="#"><div class="opciones-sena"> <img src="imagenes/tipos-senalamientos/precautorias.png" width="285" height="50" ></div></a>
+            </div>
+        
+        <a href="#">Gabintes Industriales</a>
+        <a href="#">Detectores de Humo</a>
+        <a href="#">Contacto</a>
+      </div>
+      
+      <div id="main">
+        
+        
+          <div class="header">
+
+            <div class="boton">
+              <button class="openbtn" onclick="openNav()">☰</button>
+             </div>
+
+              
+              <div class="logo-header">
+                <a href="index.html">
+                <img src="imagenes/logo-atl/fondo.png" width="116" height="55" >
+              </a>
+                </div>
+            
+
+              
+<div class="contene-carrito">
+  <button onclick="window.location.href='carrito_senalamientos.html'" style="cursor: pointer;">
+  <img src="imagenes/carrito/carrito.png" width="125" height="65" >
+</button>
+    </div>
+
+
+                  </div>
+            
+           
+           
+      
+      
+            <script>
+              function openNav() {
+                document.getElementById("mySidebar").style.width = "350px";
+                document.getElementById("main").style.marginLeft = "250px";
+              }
+              
+              function closeNav() {
+                document.getElementById("mySidebar").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+              }
+              </script>
+              
+              
+              <script>
+                function myFunction(id) {
+                  var x = document.getElementById(id);
+                  if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                  } else { 
+                    x.className = x.className.replace(" w3-show", "");
+                  }
+                }
+                </script>
+              
+              <script>
+                function myFunction2(id) {
+                  var x = document.getElementById(id);
+                  if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                  } else { 
+                    x.className = x.className.replace(" w3-show", "");
+                  }
+                }
+                </script>
+              
+              
+              <script>
+                function myFunction3(id) {
+                  var x = document.getElementById(id);
+                  if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                  } else { 
+                    x.className = x.className.replace(" w3-show", "");
+                  }
+                }
+                </script>
+      
+     
+
+     
+
+
+      
+<!-- //////////////////////////////////////////////MENU-EXTINTORES-CATEGORIAS-LADO-IZQUIERDO///////////////////////////////////////////////////////////////////////////////////////-->
+ 
+
+<div class="tab2">
+
+
+     <div class="tablinks1" onclick="openCity(event, 'listaproductos1')" id="defaultOpen">
+         <img src="imagenes/tipos-senalamientos/proteccion_civil.png" width="360" height="65" >
+     </div>
+   
+    
+    
+ <div class="tablinks2" onclick="openCity(event, 'listaproductos2')" >
+     <img src="imagenes/tipos-senalamientos/contraincendio.png" width="360" height="65" >
+ </div>
+ 
+ 
+
+ <div class="tablinks3" onclick="openCity(event, 'listaproductos3')" >
+   <img src="imagenes/tipos-senalamientos/restrictivas.png" width="360" height="65" >
+ </div>
+ 
+ 
+ <div class="tablinks4" onclick="openCity(event, 'listaproductos4')" >
+   <img src="imagenes/tipos-senalamientos/obligatorias.png" width="360" height="65" >
+ </div>
+
+ 
+  <div class="tablinks5" onclick="openCity(event, 'listaproductos5')" >
+    <img src="imagenes/tipos-senalamientos/informativas.png" width="360" height="65" >
+  </div>
+
+  <div class="tablinks6" onclick="openCity(event, 'listaproductos6')" >
+    <img src="imagenes/tipos-senalamientos/precautorias.png" width="360" height="65" >
+  </div>
+ 
+ </div>
+
+ <!-- //////////////////////////////////////////////CAJA-SEÑALAMIENTOS///////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
+
+ 
+ <div class="container" id="listaproductos1">
+
+  
+  
+
+  
+<!-- //////////////////////////////////////////////SUB-MENU-CARRITO///////////////////////////////////////////////////////////////////////////////////////-->
+    
+     
+  <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+
+    <table id="lista-carrito" class="table">
+        <thead>
+            <tr>
+                <th>Imagen</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+   
+    <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar Carrito</a>
+    <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Procesar
+        Compra</a>
+</div>
+<!-- //////////////////////////////////////////////SENALA-PROTECCION-CIVIL///////////////////////////////////////////////////////////////////////////////////////-->
+
+        
+       
+ 
+            
+            <div class="card-body15">
+
+              <div class="card mb-4 shadow-sm">
+
+              <div class="card-header">
+                <h4 class="my-0 font-weight-bold" align="center">Señalamiento 1</h4>
+            </div>
+
+                <img src="imagenes/venta_senalamientos/proteccion_civil/botiquin.jpg" class="card-img-top" width="250px" height="250" >
+                <h1 class="card-title pricing-card-title precio" align="center">$<span class="">365</span></h1>
+
+               
+               <button class="btn-comprar4">
+                 <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="15">Comprar</a>
+               </button>
+
+            </div>
+          </div>
+
+
+
+        
+            
+            <div class="card-body16">
+              <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-bold" align="center">Señalamiento 2</h4>
+              </div>
+                <img src="imagenes/venta_senalamientos/proteccion_civil/punto_reunion.jpg" class="card-img-top" width="250px" height="250">
+            
+                <h1 class="card-title pricing-card-title precio"align="center">$<span class="">380</span></h1>
+
+                <button class="btn-comprar4"> 
+             <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="16">Comprar</a>
+            </button>
+
+            </div>
+          </div>
+
+        
+            
+            <div class="card-body17">
+
+              <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-bold" align="center">Señalamiento 3</h4>
+            </div>
+                <img src="imagenes/venta_senalamientos/proteccion_civil/ruta_evacuacion_1.jpg" class="card-img-top" width="250px" height="250">
+                <h1 class="card-title pricing-card-title precio" align="center">$<span class="">470</span></h1>
+
+                <button class="btn-comprar4"> 
+           <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="17">Comprar</a>
+          </button>
+
+            </div>
+       </div>
+
+    
+      
+            
+            <div class="card-body18">
+
+              <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-bold" align="center">Señalamiento 4</h4>
+            </div>
+                <img src="imagenes/venta_senalamientos/proteccion_civil/ruta_evacuacion_2.jpg" class="card-img-top" width="250px" height="250">
+                <h1 class="card-title pricing-card-title precio" align="center">$<span class="">270</span></h1>
+
+                <button class="btn-comprar4"> 
+                <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="18">Comprar</a>
+              </button>
+            </div>
+          </div>
+
+      
+            
+            <div class="card-body19">
+
+
+              <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-bold" align="center">Señalamiento 5</h4>
+            </div>
+                <img src="imagenes/venta_senalamientos/proteccion_civil/ruta_evacuacion_3.jpg" class="card-img-top" width="250px" height="250">
+                <h1 class="card-title pricing-card-title precio" align="center">$<span class="">190</span></h1>
+
+                <button class="btn-comprar4"> 
+                <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="19">Comprar</a>
+              </button>
+
+            </div>
+          </div>
+
+
+      
+            
+            <div class="card-body20">
+
+              <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-bold" align="center">Señalamiento 6</h4>
+            </div>
+                <img src="imagenes/venta_senalamientos/proteccion_civil/ruta_evacuacion_4.jpg" class="card-img-top" width="250px" height="250">
+                <h1 class="card-title pricing-card-title precio" align="center">$<span class="">310</span></h1>
+                
+                <button class="btn-comprar4">
+                <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="20">Comprar</a>
+              </button>
+            </div>
+          </div>
+
+
+          
+          <div class="card-body21">
+
+            <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-bold" align="center">Señalamiento 7</h4>
+          </div>
+              <img src="imagenes/venta_senalamientos/proteccion_civil/salida_2.jpg" class="card-img-top" width="250px" height="250">
+              <h1 class="card-title pricing-card-title precio" align="center">$<span class="">310</span></h1>
+              
+              <button class="btn-comprar4">
+              <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="21">Comprar</a>
+            </button>
+          </div>
+        </div>
+  
+
+
+        
+        <div class="card-body22">
+
+            <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-bold" align="center">Señalamiento 8</h4>
+          </div>
+              <img src="imagenes/venta_senalamientos/proteccion_civil/salida_emergencia_1.jpg" class="card-img-top" width="250px" height="250">
+              <h1 class="card-title pricing-card-title precio" align="center">$<span class="">310</span></h1>
+              
+              <button class="btn-comprar4">
+              <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="22">Comprar</a>
+            </button>
+          </div>
+        </div>
+  
+
+        
+        <div class="card-body23">
+
+            <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-bold" align="center">Señalamiento 9</h4>
+          </div>
+              <img src="imagenes/venta_senalamientos/proteccion_civil/salida_emergencia_2.jpg" class="card-img-top" width="250px" height="250">
+              <h1 class="card-title pricing-card-title precio" align="center">$<span class="">310</span></h1>
+              
+              <button class="btn-comprar4">
+              <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="23">Comprar</a>
+            </button>
+          </div>
+        </div>
+  
+
+        
+        <div class="card-body24">
+
+            <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-bold" align="center">Señalamiento 10</h4>
+          </div>
+              <img src="imagenes/venta_senalamientos/proteccion_civil/salida_emergencia.jpg" class="card-img-top" width="250px" height="250">
+              <h1 class="card-title pricing-card-title precio" align="center">$<span class="">310</span></h1>
+              
+              <button class="btn-comprar4">
+              <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="24">Comprar</a>
+            </button>
+          </div>
+        </div>
+  
+
+
+        
+        <div class="card-body25">
+
+            <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-bold" align="center">Señalamiento 11</h4>
+          </div>
+              <img src="imagenes/venta_senalamientos/proteccion_civil/salida.jpg" class="card-img-top" width="250px" height="250">
+              <h1 class="card-title pricing-card-title precio" align="center">$<span class="">310</span></h1>
+              
+              <button class="btn-comprar4">
+              <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="25">Comprar</a>
+            </button>
+          </div>
+        </div>
+  
+
+
+        
+        <div class="card-body26">
+
+            <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-bold" align="center">Señalamiento 12</h4>
+          </div>
+              <img src="imagenes/venta_senalamientos/proteccion_civil/sismos.jpg" class="card-img-top" width="250px" height="250">
+              <h1 class="card-title pricing-card-title precio" align="center">$<span class="">310</span></h1>
+              
+              <button class="btn-comprar4">
+              <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="26">Comprar</a>
+            </button>
+          </div>
+        </div>
+  
+
+
+        
+        <div class="card-body27">
+
+            <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-bold" align="center">Señalamiento 13</h4>
+          </div>
+              <img src="imagenes/venta_senalamientos/proteccion_civil/zona_riesgo.jpg" class="card-img-top" width="250px" height="250">
+              <h1 class="card-title pricing-card-title precio" align="center">$<span class="">310</span></h1>
+              
+              <button class="btn-comprar4">
+              <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="27">Comprar</a>
+            </button>
+          </div>
+        </div>
+  </div>
+
+
+
+
+
+<!-- //////////////////////////////////////////////SENALAMIENTOS-CONTRA-INCENDIOS///////////////////////////////////////////////////////////////////////////////////////-->
+
+<div class="container" id="listaproductos2">
+
+  
+    
+    <div class="card-body28">
+
+      <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-bold" align="center">Extintor 7</h4>
+    </div>
+        <img src="imagenes/venta_senalamientos/contra_incendio/extintor.jpg" class="card-img-top" width="250px" height="250">
+        <h1 class="card-title pricing-card-title precio"  align="center">$<span class="">190</span></h1>
+         
+        <button class="btn-comprar5">
+        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="28">Comprar</a>
+      </button>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+<!-- //////////////////////////////////////////////SENALAMIENTOS-RESTRICTIVAS///////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
+<div class="container" id="listaproductos3">
+
+  
+    
+    <div class="card-body29">
+
+      <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-bold"align="center"> Extintor 11</h4>
+    </div>
+        <img src="imagenes/venta_senalamientos/restrictivas/no_bloquear_equipo.jpg" class="card-img-top" width="250px" height="250">
+        <h1 class="card-title pricing-card-title precio" align="center">$<span class="">128</span></h1>
+
+        <button class="btn-comprar5">
+        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="29">Comprar</a>
+      </button>
+    </div>
+  </div>
+
+    
+    <div class="card-body30">
+
+      <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-bold" align="center">Extintor 12</h4>
+    </div>
+        <img src="imagenes/venta_senalamientos/restrictivas/no_fumar_2.jpg" class="card-img-top" width="250px" height="250">
+        <h1 class="card-title pricing-card-title precio" align="center">$<span class="">5678</span></h1>
+
+        <button class="btn-comprar5">
+        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="30">Comprar</a>
+      </button>
+    </div>
+  </div>
+
+
+    
+    <div class="card-body31">
+
+
+      <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-bold" align="center">Extintor 13</h4>
+    </div>
+        <img src="imagenes/venta_senalamientos/restrictivas/no_fumar.jpg" class="card-img-top" width="250px" height="250">
+        <h1 class="card-title pricing-card-title precio" align="center">$<span class="">5397</span></h1>
+
+        <button class="btn-comprar5">
+      <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="31">Comprar</a>
+    </button>
+    </div>
+  </div>
+
+
+
+
+  <div class="card-body32">
+
+    <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-bold" align="center">Extintor 14</h4>
+  </div>
+      <img src="imagenes/venta_senalamientos/restrictivas/prohibida_entrada.jpg" class="card-img-top" width="250px" height="250">
+      <h1 class="card-title pricing-card-title precio" align="center">$<span class="">5397</span></h1>
+
+      <button class="btn-comprar5">
+ <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="32">Comprar</a>
+</button>
+  </div>
+ </div>
+
+</div>
+
+<!-- //////////////////////////////////////////////SENALAMIENTOS-OBLIGATORIAS///////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
+<div class="container" id="listaproductos4">
+
+  
+    
+    <div class="card-body33">
+
+      <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-bold"align="center"> Extintor 11</h4>
+    </div>
+        <img src="imagenes/venta_senalamientos/obligatorias/confia.jpg" class="card-img-top" width="250px" height="250">
+        <h1 class="card-title pricing-card-title precio" align="center">$<span class="">128</span></h1>
+
+        <button class="btn-comprar6">
+        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="33">Comprar</a>
+      </button>
+    </div>
+  </div>
+
+    
+    <div class="card-body34">
+
+      <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-bold" align="center">Extintor 12</h4>
+    </div>
+        <img src="imagenes/venta_senalamientos/obligatorias/cubre_boca.jpg" class="card-img-top" width="250px" height="250">
+        <h1 class="card-title pricing-card-title precio" align="center">$<span class="">5678</span></h1>
+
+        <button class="btn-comprar6">
+        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="34">Comprar</a>
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<!-- //////////////////////////////////////////////SENALA-INFORMATIVAS///////////////////////////////////////////////////////////////////////////////////////-->
+
+        
+       
+<div class="container" id="listaproductos5">
+            
+<div class="card-body35">
+
+  <div class="card mb-4 shadow-sm">
+
+  <div class="card-header">
+    <h4 class="my-0 font-weight-bold" align="center"> Extintor 1</h4>
+</div>
+
+    <img src="imagenes/venta_senalamientos/informativas/area_produccion.jpg" class="card-img-top" width="250px" height="250" >
+    <h1 class="card-title pricing-card-title precio" align="center">$<span class="">365</span></h1>
+
+   
+   <button class="btn-comprar6">
+     <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="35">Comprar</a>
+   </button>
+
+</div>
+</div>
+
+
+
+
+
+<div class="card-body36">
+  <div class="card mb-4 shadow-sm">
+  <div class="card-header">
+    <h4 class="my-0 font-weight-bold" align="center"> Extintor2</h4>
+  </div>
+    <img src="imagenes/venta_senalamientos/informativas/bano_limpio.jpg" class="card-img-top" width="250px" height="250">
+
+    <h1 class="card-title pricing-card-title precio"align="center">$<span class="">380</span></h1>
+
+    <button class="btn-comprar6"> 
+ <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="36">Comprar</a>
+</button>
+
+</div>
+</div>
+
+
+
+<div class="card-body37">
+
+  <div class="card mb-4 shadow-sm">
+  <div class="card-header">
+    <h4 class="my-0 font-weight-bold" align="center">Extintor3</h4>
+</div>
+    <img src="imagenes/venta_senalamientos/informativas/bodegas.jpg" class="card-img-top" width="250px" height="250">
+    <h1 class="card-title pricing-card-title precio" align="center">$<span class="">470</span></h1>
+
+    <button class="btn-comprar6"> 
+<a href="" class="btn btn-block btn-primary agregar-carrito" data-id="37">Comprar</a>
+</button>
+
+</div>
+</div>
+
+
+
+
+<div class="card-body38">
+
+  <div class="card mb-4 shadow-sm">
+  <div class="card-header">
+    <h4 class="my-0 font-weight-bold" align="center"> Extintor 4</h4>
+</div>
+    <img src="imagenes/venta_senalamientos/informativas/caballeros_2.jpg" class="card-img-top" width="250px" height="250">
+    <h1 class="card-title pricing-card-title precio" align="center">$<span class="">270</span></h1>
+
+    <button class="btn-comprar6"> 
+    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="38">Comprar</a>
+  </button>
+</div>
+</div>
+
+
+
+<div class="card-body39">
+
+
+  <div class="card mb-4 shadow-sm">
+  <div class="card-header">
+    <h4 class="my-0 font-weight-bold" align="center">Extintor 5</h4>
+</div>
+    <img src="imagenes/venta_senalamientos/informativas/caballeros.jpg" class="card-img-top" width="250px" height="250">
+    <h1 class="card-title pricing-card-title precio" align="center">$<span class="">190</span></h1>
+
+    <button class="btn-comprar6"> 
+    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="39">Comprar</a>
+  </button>
+
+</div>
+</div>
+
+
+
+
+<div class="card-body40">
+
+  <div class="card mb-4 shadow-sm">
+  <div class="card-header">
+    <h4 class="my-0 font-weight-bold" align="center">Extintor 6</h4>
+</div>
+    <img src="imagenes/venta_senalamientos/informativas/damas_2.jpg" class="card-img-top" width="250px" height="250">
+    <h1 class="card-title pricing-card-title precio" align="center">$<span class="">310</span></h1>
+    
+    <button class="btn-comprar6">
+    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="40">Comprar</a>
+  </button>
+</div>
+</div>
+
+
+
+<div class="card-body41">
+
+<div class="card mb-4 shadow-sm">
+<div class="card-header">
+  <h4 class="my-0 font-weight-bold" align="center">Extintor 6</h4>
+</div>
+  <img src="imagenes/venta_senalamientos/informativas/damas.jpg" class="card-img-top" width="250px" height="250">
+  <h1 class="card-title pricing-card-title precio" align="center">$<span class="">310</span></h1>
+  
+  <button class="btn-comprar6">
+  <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="41">Comprar</a>
+</button>
+</div>
+</div>
+
+
+
+
+<div class="card-body42">
+
+<div class="card mb-4 shadow-sm">
+<div class="card-header">
+  <h4 class="my-0 font-weight-bold" align="center">Extintor 6</h4>
+</div>
+  <img src="imagenes/venta_senalamientos/informativas/regaderas_1.jpg" class="card-img-top" width="250px" height="250">
+  <h1 class="card-title pricing-card-title precio" align="center">$<span class="">310</span></h1>
+  
+  <button class="btn-comprar6">
+  <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="42">Comprar</a>
+</button>
+</div>
+</div>
+
+
+
+<div class="card-body43">
+
+<div class="card mb-4 shadow-sm">
+<div class="card-header">
+  <h4 class="my-0 font-weight-bold" align="center">Extintor 6</h4>
+</div>
+  <img src="imagenes/venta_senalamientos/informativas/sanitarios_1.jpg" class="card-img-top" width="250px" height="250">
+  <h1 class="card-title pricing-card-title precio" align="center">$<span class="">310</span></h1>
+  
+  <button class="btn-comprar6">
+  <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="43">Comprar</a>
+</button>
+</div>
+</div>
+
+
+
+<div class="card-body44">
+
+<div class="card mb-4 shadow-sm">
+<div class="card-header">
+  <h4 class="my-0 font-weight-bold" align="center">Extintor 6</h4>
+</div>
+  <img src="imagenes/venta_senalamientos/informativas/sanitarios_2.jpg" class="card-img-top" width="250px" height="250">
+  <h1 class="card-title pricing-card-title precio" align="center">$<span class="">310</span></h1>
+  
+  <button class="btn-comprar6">
+  <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="44">Comprar</a>
+</button>
+</div>
+</div>
+
+
+
+
+<div class="card-body45">
+
+<div class="card mb-4 shadow-sm">
+<div class="card-header">
+  <h4 class="my-0 font-weight-bold" align="center">Extintor 6</h4>
+</div>
+  <img src="imagenes/venta_senalamientos/informativas/use_pasamientos.jpg" class="card-img-top" width="250px" height="250">
+  <h1 class="card-title pricing-card-title precio" align="center">$<span class="">310</span></h1>
+  
+  <button class="btn-comprar6">
+  <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="45">Comprar</a>
+</button>
+</div>
+</div>
+
+</div>
+
+
+<!-- //////////////////////////////////////////////SENALAMIENTOS-PRECAUTORIAS///////////////////////////////////////////////////////////////////////////////////////-->
+
+<div class="container" id="listaproductos6">
+
+<div class="card-body46">
+
+  <div class="card mb-4 shadow-sm">
+
+  <div class="card-header">
+    <h4 class="my-0 font-weight-bold" align="center"> Extintor 1</h4>
+</div>
+
+    <img src="imagenes/venta_senalamientos/precautorias/alto_voltaje.jpg" class="card-img-top" width="250px" height="250" >
+    <h1 class="card-title pricing-card-title precio" align="center">$<span class="">365</span></h1>
+
+   
+   <button class="btn-comprar7">
+     <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="45">Comprar</a>
+   </button>
+
+</div>
+</div>
+
+
+
+
+
+<div class="card-body47">
+  <div class="card mb-4 shadow-sm">
+  <div class="card-header">
+    <h4 class="my-0 font-weight-bold" align="center"> Extintor2</h4>
+  </div>
+    <img src="imagenes/venta_senalamientos/precautorias/cuide_sus_manos.jpg" class="card-img-top" width="250px" height="250">
+
+    <h1 class="card-title pricing-card-title precio"align="center">$<span class="">380</span></h1>
+
+    <button class="btn-comprar7"> 
+ <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="47">Comprar</a>
+</button>
+
+</div>
+</div>
+
+
+
+<div class="card-body48">
+
+  <div class="card mb-4 shadow-sm">
+  <div class="card-header">
+    <h4 class="my-0 font-weight-bold" align="center">Extintor3</h4>
+</div>
+    <img src="imagenes/venta_senalamientos/precautorias/intalacion_gas.jpg" class="card-img-top" width="250px" height="250">
+    <h1 class="card-title pricing-card-title precio" align="center">$<span class="">470</span></h1>
+
+    <button class="btn-comprar7"> 
+<a href="" class="btn btn-block btn-primary agregar-carrito" data-id="48">Comprar</a>
+</button>
+
+</div>
+</div>
+
+
+
+
+<div class="card-body49">
+
+  <div class="card mb-4 shadow-sm">
+  <div class="card-header">
+    <h4 class="my-0 font-weight-bold" align="center"> Extintor 4</h4>
+</div>
+    <img src="imagenes/venta_senalamientos/precautorias/piso_resbaloso.jpg" class="card-img-top" width="250px" height="250">
+    <h1 class="card-title pricing-card-title precio" align="center">$<span class="">270</span></h1>
+
+    <button class="btn-comprar7"> 
+    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="49">Comprar</a>
+  </button>
+</div>
+</div>
+
+
+
+<div class="card-body50">
+
+
+  <div class="card mb-4 shadow-sm">
+  <div class="card-header">
+    <h4 class="my-0 font-weight-bold" align="center">Extintor 5</h4>
+</div>
+    <img src="imagenes/venta_senalamientos/precautorias/supercie_caliente.jpg" class="card-img-top" width="250px" height="250">
+    <h1 class="card-title pricing-card-title precio" align="center">$<span class="">190</span></h1>
+
+    <button class="btn-comprar7"> 
+    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="50">Comprar</a>
+  </button>
+
+</div>
+</div>
+
+
+
+
+<div class="card-body51">
+
+  <div class="card mb-4 shadow-sm">
+  <div class="card-header">
+    <h4 class="my-0 font-weight-bold" align="center">Extintor 6</h4>
+</div>
+    <img src="imagenes/venta_senalamientos/precautorias/zona_riesgo.jpg" class="card-img-top" width="250px" height="250">
+    <h1 class="card-title pricing-card-title precio" align="center">$<span class="">310</span></h1>
+    
+    <button class="btn-comprar7">
+    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="51">Comprar</a>
+  </button>
+</div>
+</div>
+</div>
+
+
+
+
+<script src="js/sweetalert2.min.js"></script>
+<script src="js/carrito.js"></script>
+<script src="js/pedido.js"></script>
+
+<!-- //////////////////////////////////////////////CAJA-EXTINTORES///////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
+
+
+    <script>
+        function openCity(evt, cityName) {
+          var i, listaproductos1, tablinks1;
+          listaproductos1 = document.getElementsByClassName("container");
+          for (i = 0; i < listaproductos1.length; i++) {
+            listaproductos1[i].style.display = "none";
+          }
+          tablinks1 = document.getElementsByClassName("tablinks1");
+          for (i = 0; i < tablinks1.length; i++) {
+            tablinks1[i].className = tablinks1[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+        </script>
+           
+
+           <script>
+            function openCity(evt, cityName) {
+              var i, listaproductos2, tablinks2;
+              listaproductos2 = document.getElementsByClassName("container");
+              for (i = 0; i < listaproductos2.length; i++) {
+                listaproductos2[i].style.display = "none";
+              }
+              tablinks2 = document.getElementsByClassName("tablinks2");
+              for (i = 0; i < tablinks2.length; i++) {
+                tablinks2[i].className = tablinks2[i].className.replace(" active", "");
+              }
+              document.getElementById(cityName).style.display = "block";
+              evt.currentTarget.className += " active";
+            }
+            
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+            </script>
+
+<script>
+  function openCity(evt, cityName) {
+    var i, listaproductos3, tablinks3;
+    listaproductos3 = document.getElementsByClassName("container");
+    for (i = 0; i < listaproductos3.length; i++) {
+      listaproductos3[i].style.display = "none";
+    }
+    tablinks3 = document.getElementsByClassName("tablinks3");
+    for (i = 0; i < tablinks3.length; i++) {
+      tablinks3[i].className = tablinks3[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+  </script>
+
+  
+<script>
+  function openCity(evt, cityName) {
+    var i, listaproductos4, tablinks4;
+    listaproductos4 = document.getElementsByClassName("container");
+    for (i = 0; i < listaproductos4.length; i++) {
+      listaproductos4[i].style.display = "none";
+    }
+    tablinks4 = document.getElementsByClassName("tablinks4");
+    for (i = 0; i < tablinks4.length; i++) {
+      tablinks4[i].className = tablinks4[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+  </script>
+
+<script>
+  function openCity(evt, cityName) {
+    var i, listaproductos5, tablinks5;
+    listaproductos5 = document.getElementsByClassName("container");
+    for (i = 0; i < listaproductos5.length; i++) {
+      listaproductos5[i].style.display = "none";
+    }
+    tablinks5 = document.getElementsByClassName("tablinks5");
+    for (i = 0; i < tablinks5.length; i++) {
+      tablinks5[i].className = tablinks5[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+  </script>
+
+  
+<script>
+  function openCity(evt, cityName) {
+    var i, listaproductos6, tablinks6;
+    listaproductos6 = document.getElementsByClassName("container");
+    for (i = 0; i < listaproductos6.length; i++) {
+      listaproductos6[i].style.display = "none";
+    }
+    tablinks6 = document.getElementsByClassName("tablinks6");
+    for (i = 0; i < tablinks6.length; i++) {
+      tablinks6[i].className = tablinks6[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+  </script>
+          </div>
+</body>
+
+</html>
