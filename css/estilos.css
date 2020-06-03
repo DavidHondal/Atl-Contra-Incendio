@@ -44,7 +44,6 @@ body {
 
 .header-right {
   float: right;
-  border: 3px solid red ;
   align-content: center;
 }
 
@@ -186,9 +185,10 @@ body {
 /* ////////////////////////////////////////////////FONDO /////////////////////////////////////*/
 .logo-contenido{
   position: relative;
-  width: 1200px;
+  width: 950px;
   height: 360px;
- 
+  
+  margin:  0  120px auto;
   left: 192px;
   
 }
@@ -454,10 +454,7 @@ input[type=submit]:hover {
   margin-right: auto;
   width: 146px;
   border-radius: 50%;
-  
-  
-
-}
+  }
 
 /* ////////////////////////////////////////////////REGISTRAR/////////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -681,7 +678,7 @@ body {font-family: "Lato", sans-serif;}
   height: 1200px;
   top: 0px;
   margin: 0px  0px auto;
-  border: 1px solid red;
+ 
   
 }
 .tab-exti{
@@ -826,7 +823,7 @@ position: relative;
     float: right;
     width: 70%;
   height: 2700px;
-  border: 1px solid red;
+
   }
 
     .card-header{
@@ -1182,9 +1179,10 @@ position: relative;
    border: 1px solid #ccc;
    background-color: #f1f1f1;
    width: 30%;
-   height: 2300px;
+   height: 2700px;
    top: 0px;
    margin: 0px  0px auto;
+  
   
    }
 
@@ -1827,3 +1825,164 @@ height: 1800px;
             margin-left: auto;
             margin-right: auto;
           }
+
+/* ////////////////////////////////////////////////ORDEN DE SERVICIO/////////////////////////////////////////////////////////////////////////////////////////*/
+
+.container-registro2 {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 0px 0 100px 30px;
+  width: 760px;
+  height: 750px;
+  margin: 50px  auto;
+  
+  
+} 
+
+/* Horizontal line */
+
+
+/* text inside the Horizontal line */
+.vlregistrar2-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-999%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+
+
+
+.razon_social{
+  position: absolute;
+  width: 591px;
+  height: 55px;
+  margin: 30px -315px auto;
+}
+
+
+
+
+
+.horario{
+  position: absolute;
+  width: 291px;
+  height: 55px;
+   margin: 285px 50px auto;
+}
+
+.atencion{
+  position: absolute;
+  width: 291px;
+  height: 55px;
+   margin: 285px 350px auto;
+}
+
+.rfc{
+position: absolute;
+  width: 291px;
+  height: 55px;
+  margin: 115px 50px auto;
+}
+
+.nombre_comercial{
+  position: absolute;
+    width: 291px;
+    height: 55px;
+    margin: 115px 350px auto;
+  }
+
+
+.giro_comercial{
+  position: absolute;
+    width: 591px;
+    height: 55px;
+   top: 90px;
+   margin: 115px 50px auto;
+  
+  
+  }
+
+  .domicilio{
+    position: absolute;
+    width: 450px;
+    height: 55px;
+     margin: 370px 50px auto;
+  }
+  
+  .num{
+    position: absolute;
+    width: 130px;
+    height: 55px;
+     margin: 370px 510px auto;
+  }
+
+
+  
+  .colonia{
+    position: absolute;
+    width: 450px;
+    height: 55px;
+     margin: 460px 50px auto;
+  }
+
+  .codigo_postal{
+    position: absolute;
+    width: 130px;
+    height: 55px;
+     margin: 460px 510px auto;
+  }
+
+  
+  .correo_electronico{
+    position: absolute;
+    width: 400px;
+    height: 55px;
+     margin: 545px 50px auto;
+  }
+
+
+  .telefono{
+    position: absolute;
+    width: 180px;
+    height: 55px;
+     margin: 545px 460px auto;
+  }
+
+
+ 
+
+    .boton-generarorden{
+      position: absolute;
+      width: 300px;
+      margin: 630px 200px auto;
+     
+      
+    }
+
+  
+    
+
+    /* bottom container */
+
+
+/* Two-column layout */
+.col3 {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 -30px;
+  margin-top: 6px;
+}
+
+.orden_servicio {
+  width: 330px;
+  font-size: 200%;
+  margin: 70px 620px auto;
+
+ 
+}
