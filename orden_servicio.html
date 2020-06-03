@@ -141,116 +141,96 @@
                 }
                 </script>
       
-     
 
-     
+      <! -- /////////////////ORDEN DE SERVICIO///////////////////////////////////////////////////-->
+
+      <div class="orden_servicio">ORDEN DE SERVICIO   </div> 
+
+      <div class="container-registro2">
+    <form action="/action_page.php">
+      <div class="row">
+        
+        <div class="col" align="right">
+        
 
 
-      
-<!-- //////////////////////////////////////////////CARRITO///////////////////////////////////////////////////////////////////////////////////////-->
- 
-    
-
-  
-
-
-<main>
-  <div class="container-compra">
-      <div class="row mt-3">
           
-              <h2 class="d-flex justify-content-center mb-3" style="text-align:center">Realizar Compra</h2>
-              <form id="procesar-pago" action="#" method="post">
-                  <div class="form-group row">
-                     
-                  </div>
-                  <div class="form-group row">
-                      
-                  </div>
-
-                  <div id="carrito" class="form-group table-responsive" >
-                      <table class="table" id="lista-compra" >
-                          <thead>
-                              <tr>
-                                  <th scope="col">Imagen</th>
-                                  <th scope="col">Nombre</th>
-                                  <th scope="col">Precio</th>
-                                  <th scope="col">Cantidad</th>
-                                  <th scope="col">Sub Total</th>
-                                  <th scope="col">Eliminar</th>
-                              </tr>
-
-                          </thead>
-                          <tbody >
-
-                          </tbody>
-                          <tr>
-                              <th colspan="4" scope="col" class="text-right" style="text-align:right">SUB TOTAL :</th>
-                              <th scope="col">
-                                  <p id="subtotal"></p>
-                              </th>
-                              <!-- <th scope="col"></th> -->
-                          </tr>
-                          <tr>
-                              <th colspan="4" scope="col" style="text-align:right" class="text-right">IGV :</th>
-                              <th scope="col">
-                                  <p id="igv"></p>
-                              </th>
-                              <!-- <th scope="col"></th> -->
-                          </tr>
-                          <tr>
-                              <th colspan="4" scope="col" class="text-right" style="text-align:right">TOTAL :</th>
-                              <th scope="col">
-                                  <input id="total" name="monto" class="font-weight-bold border-0" readonly style="background-color: white;"></input>
-                              </th>
-                              <!-- <th scope="col"></th> -->
-                          </tr>
-
-                      </table>
-                  </div>
-
-                  
-                  <div class="contenido-botones" >
-                    <div class="row justify-content-between">
-
-                  <div class="contene-seguir-comp">
-                    <button class="btn-seguir-com">
-                      <a href="venta_gabinetes.html" class="btn btn-info btn-block">Seguir comprando</a>
-                    </button>
-                  </div>
-
-                  <div class="contene-realia-com">
-                          <button href="#" class="btnbtn-successbtn-block" id="procesar-compra">Realizar compra</button>
-                      </div>
-
-                  </div>
-                </div>
-              </form>
-
-
+          
+        </div>        
+  
+        <div class="col3">
+          <div class="hide-md-lg">
+            <p>Or sign in manually:</p>
           </div>
-
-
+          
+           <div class="razon_social">
+          <input  name="password" placeholder="Razon Social" required>
+        </div>
+         
+      </div>
       </div>
 
+      <div class="horario">
+        <input  name="password" placeholder="Horario" required>
+      </div>
+      <div class="atencion">
+        <input  name="password" placeholder="Atencion:" required>
+      </div>
+
+      <div class="domicilio">
+        <input  name="password" placeholder="Domicilio:" required>
+      </div>
+
+      <div class="num">
+        <input  name="password" placeholder="No." required>
+      </div>
+
+      <div class="colonia">
+        <input  name="password" placeholder="Colonia:" required>
+      </div>
+
+      <div class="codigo_postal">
+        <input  name="password" placeholder="C.P" required>
+      </div>
+
+      <div class="correo_electronico">
+        <input  name="password" placeholder="Correo Electronico" required>
+      </div>
+
+      <div class="telefono">
+        <input  name="password" placeholder="Telefono" required>
+      </div>
+
+
+
+
+      <div class="rfc">
+        <input  name="password" placeholder="R.F.C:" required>
+      </div>
+
+      <div class="giro_comercial">
+        <input name="password" placeholder="Giro Comercial:" required>
+      </div>
+
+      <div class="nombre_comercial">
+        <input name="password" placeholder="Nombre Comercial:" required>
+      </div>
+
+      <div class="boton-generarorden">
+        <input type="submit"  value="Generar Servicio" >
+      </div>
+
+      
+
+
+    </form>
+  </div>
   
-</main>
-
-
-
-
-
-</div>
-
  
-<script src="js/sweetalert2.min.js"></script>
-
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-
-<script src="js/carrito.js"></script>
-<script src="js/compra.js"></script>
-
-
+      
+      
+    </div>
+  </div>
+  
 </body>
-
-</html>
+</html> 
